@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Cleaner Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>JSON Cleaner Pro</header>
+  <main>
+    <textarea id="json-input" placeholder="Paste your JSON here..."></textarea>
+    <div class="buttons">
+      <button id="format-btn">Format JSON</button>
+      <button id="minify-btn">Minify</button>
+      <button id="copy-btn">Copy to Clipboard</button>
+    </div>
+    <div id="error-msg" class="error"></div>
+    <pre id="highlighted-json"></pre>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
